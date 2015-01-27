@@ -1,3 +1,10 @@
 extends layout
 
 block content
+  #posts
+    each post, i in posts
+      .row.post
+        .col-xs-12.title
+          = post.content.title
+        .col-xs-12.description
+          = post.content.description

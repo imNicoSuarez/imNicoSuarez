@@ -5655,68 +5655,47 @@ td.visible-print {
     display: none !important;
   }
 }
-.im-nico-suarez-logo {
-  margin-top: -19%;
+#im-nico-suarez {
+  position: relative;
+  min-height: 750px;
+  width: 100%;
+}
+#im-nico-suarez .logo {
+  margin-top: -240px;
   width: 500px;
-  margin-left: 30%;
+  margin-left: 360px;
   position: absolute;
 }
-.im-nico-suarez-title {
+#im-nico-suarez .title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 200px;
   position: absolute;
-  left: 15%;
+  left: 170px;
   margin-top: 123px;
 }
-.im-nico-suarez {
-  position: relative;
-  min-height: 750px;
-  width: 100%;
-}
-.im-nico-suarez-list {
+#im-nico-suarez .list-slogan {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 30px;
-  right: 15%;
-  margin-top: 28%;
+  right: 84px;
+  margin-top: 354px;
   position: absolute;
 }
-.content-posts {
+#posts {
+  position: relative;
   min-height: 750px;
   width: 100%;
-  position: relative;
 }
-.post-big {
-  margin: 5px;
-  height: 400px;
-  height: 400px;
-  float: left;
-  background: #2c2c2c;
+#posts .post .title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
 }
-.content-post-small-vertical {
-  height: 400px;
-}
-.post-small-vertical {
-  margin: 5px;
-  height: 180px;
-  width: 180px;
-  float: left;
-  background: #2c2c2c;
-}
-.post-small-vertical.offset {
-  margin-top: 40px;
-}
-.post-small-horizontal {
-  margin: 5px;
-  height: 180px;
-  width: 180px;
-  float: left;
-  background: #2c2c2c;
-}
-.post-small-horizontal.offset {
-  margin-top: 40px;
-}
-.content-post-small-horizontal {
-  height: 180px;
+#posts .post .description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
 }
