@@ -5655,6 +5655,43 @@ td.visible-print {
     display: none !important;
   }
 }
+.modal.modal-fullscreen .modal-content,
+.modal.modal-fullscreen .modal-dialog {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.modal.modal-fullscreen .modal-dialog {
+  margin: 0;
+  width: 100%;
+}
+.modal.modal-fullscreen .modal-content {
+  border: none;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: inherit;
+  -moz-box-shadow: inherit;
+  -o-box-shadow: inherit;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-body {
+  padding: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-header,
+.modal.modal-fullscreen.force-fullscreen .modal-footer {
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-header {
+  top: 0;
+}
+.modal.modal-fullscreen.force-fullscreen .modal-footer {
+  bottom: 0;
+}
 #im-nico-suarez {
   position: relative;
   min-height: 750px;
@@ -5687,6 +5724,12 @@ td.visible-print {
   min-height: 750px;
   width: 100%;
 }
+#posts .post {
+  position: relative;
+  min-height: 750px;
+  width: 100%;
+  vertical-align: middle;
+}
 #posts .post .title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -5697,5 +5740,4 @@ td.visible-print {
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   font-size: 30px;
-  text-align: center;
 }

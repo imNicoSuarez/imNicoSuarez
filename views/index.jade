@@ -2,3 +2,10 @@ extends layout
 
 block content
   #posts
+    each val in [1, 2, 3, 4, 5]
+      each post, i in posts
+        section.row.post
+          h3.col-xs-12.title
+            = post.content.title
+          p.col-xs-12.description
+            = post.content.description
