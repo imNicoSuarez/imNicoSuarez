@@ -1,0 +1,23 @@
+$section-a: 62.1%;
+$section-b: 37.9%;
+$full-value: 100%;
+
+@mixin width-section-a {
+  width:  $section-a;
+  height: $full-value;
+}
+
+@mixin height-section-a {
+  width:  $full-value;
+  height: $section-a;
+}
+
+@mixin width-section-b {
+  width:  $section-b;
+  height: $full-value;
+}
+
+@mixin height-section-b {
+  width:  $full-value;
+  height: $section-b;
+}

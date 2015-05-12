@@ -1,0 +1,54 @@
+.c-welcome {
+  height: 100%;
+  width: 100%;
+
+  &__video {
+    // Agregar la imagen de background por si las dudas :)
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    right: 0;
+    transition: 1s opacity;
+    width: auto;
+    z-index: -100;
+    filter: grayscale(60%);
+  }
+
+  &__title {
+    color: $title-clear;
+    font-family: $font-ui-two;
+    font-size: 70px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+  }
+
+  &__subtitle {
+    color: $title-clear;
+    font-family: $font-ui-two;
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    top: 33%;
+    width: 100%;
+  }
+
+  &__scroll-indicator {
+    border-radius: 100%;
+    border: 2px solid $color-dark;
+    bottom: 50px;
+    color: $color-dark;
+    font-size: 40px;
+    height: 40px;
+    left: calc(50% - 25px);
+    position: absolute;
+    text-align: center;
+    padding: 5px 0;
+    width: 50px;
+  }
+}

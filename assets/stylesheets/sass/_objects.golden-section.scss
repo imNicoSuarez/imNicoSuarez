@@ -1,0 +1,14 @@
+.o-golden-section{
+  &__A {
+    height: 133.3%;
+    min-height: 1024px;
+    width: 100%;
+  }
+
+  &__B {
+    height: 82.4%;
+    min-height: 632px;
+    width: 100%;
+    background-color: blue;
+  }
+}

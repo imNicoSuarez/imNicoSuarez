@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700|Open+Sans:400,300,600,700|Roboto:400,100,300,300italic,100italic,700,500,900);
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.o-golden-section__A {
+  height: 133.3%;
+  min-height: 1024px;
+  width: 100%; }
+.o-golden-section__B {
+  height: 82.4%;
+  min-height: 632px;
+  width: 100%;
+  background-color: blue; }
+
+.c-welcome {
+  height: 100%;
+  width: 100%; }
+  .c-welcome__video {
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    right: 0;
+    transition: 1s opacity;
+    width: auto;
+    z-index: -100;
+    filter: grayscale(60%); }
+  .c-welcome__title {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%; }
+  .c-welcome__subtitle {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    top: 33%;
+    width: 100%; }
+  .c-welcome__scroll-indicator {
+    border-radius: 100%;
+    border: 2px solid #1a1a1a;
+    bottom: 50px;
+    color: #1a1a1a;
+    font-size: 40px;
+    height: 40px;
+    left: calc(50% - 25px);
+    position: absolute;
+    text-align: center;
+    padding: 5px 0;
+    width: 50px; }
+
+/*# sourceMappingURL=application.css.map */
