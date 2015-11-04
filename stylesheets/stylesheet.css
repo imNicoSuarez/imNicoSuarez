@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #282828;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+section.content {
+  height: 100%;
+  width: 100%;
+  display:  table-cell;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+a {
+  transition: all 1s cubic-bezier(0.91, 0.15, 0.19, 0.8);
+  text-decoration: none;
+  color: #282828;
+}
+
+a:hover {
+  font-size: 2em;
+}
